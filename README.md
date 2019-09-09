@@ -1,9 +1,10 @@
 # github-commands
 Follow along here to see the exact commands and URLs you need to use in this workshop. You can copy and paste these easily into the browser or terminal.
 
-## Set-up: installing and configuring git (steps 0.1 through 0.4)
+## Set-up: installing and configuring git (steps 0.1 through 0.5)
 ### Step 0.1: Registering a GitHub account
-Register a GitHub account at https://github.com/.
+If you already have a GitHub account you'd like to use, log in to that account.
+Otherwise, register a GitHub account at https://github.com/.
 
 ### Step 0.2: Opening a terminal
 #### Linux
@@ -45,7 +46,37 @@ before entering the above command or you can download git with the [Git for Mac 
 Use the [Git for Windows installer](https://gitforwindows.org/).
 
 
+### Step 0.5 Configure git (if not already configured)
+On all operating systems, issue this command to check your current git configuration:  
+`$ git config --list`  
+
+To configure git, issue the following (make sure to use your real email that is attached to your GitHub account):
+```
+$ git config --global user.name "Jane Doe"
+$ git config --global user.email "jane@l337.com"
+
+```
+
 ## Creating a repo
+### Copying git URL
+
+### Cloing the repo locally
+Tip: Right click on the terminal to paste the git URL. In most cases, you can’t use `Ctrl+V` in the terminal.  
+
+#### MacOS and Linux
+```
+$ cd ~ && mkdir Repos && cd Repos
+$ git clone https://github.com/github-fun/github-appendix.git && cd github-appendix
+```
+
+#### Windows
+```
+> cd C:\Users\gituser && mkdir Repos && cd Repos
+> git clone https://github.com/github-fun/github-appendix.git && cd github-appendix
+```
+
+
+
 
 ## Making changes and pushing to remote
 
