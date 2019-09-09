@@ -34,7 +34,7 @@ $ sudo apt-get install git
 ```
 
 #### MacOS
-If you have homebrew installed, you can issue:
+If you have homebrew installed, you can issue:  
 `$ brew install git`
 
 Otherwise, you can either [install homebrew](https://brew.sh/) with   
