@@ -108,10 +108,10 @@ Then enter `git checkout -b my-new-branch` to create a new branch. This will be 
 Using the method from Step 2.0, create a file called `random.txt`, but leave it blank. Then edit `question.txt` to ask an additional question (Ex. "What is your favorite animal and why?").
 
 ### Step 3.2 Staging and committing changes in the branch
-`git status`
-`git add random.txt`
-`git commit -am "new question, addition of random file"`
-`git status`
+`git status`  
+`git add random.txt`  
+`git commit -am "new question, addition of random file"`  
+`git status`  
 
 ### Step 3.3 Comparison
 List the files in your directory while you're on `my-new-branch` with `ls`. What do you see?
