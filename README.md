@@ -85,9 +85,15 @@ Some example text editors are listed below, but feel free to do this in whicheve
 #### Windows: common text editor is notepad
 `> touch question.txt`
 
+Use `$ git status` to check the status of your new file.
+
 ### Step 2.1 Tracking the file with git
 `$ git add question.txt`
-
+ Use `$ git status` to check the status of your file again. What is different?
+ 
+### Step 2.2 Committing changes
+`$ git commit -am "added question.txt file"`
+Tip: `-am ` allows you to specify a commit message. The commit message should be short and descriptive about the purpose of the commit or what you changed.
 
 
 ## Working with branches
