@@ -1,5 +1,5 @@
 # github-commands
-Follow along here to see the exact commands and URLs you need to use in this workshop. You can copy and paste these easily into the browser or terminal.
+Follow along here to see the exact commands and URLs you need to use in this workshop. You can copy and paste these easily into the browser or terminal. Some steps do not have corresponding commands or URLs, so they are skipped in this document.
 
 ## Set-up: installing and configuring git (steps 0.1 through 0.5)
 ### Step 0.1: Registering a GitHub account
@@ -58,9 +58,7 @@ $ git config --global user.email "jane@l337.com"
 ```
 
 ## Creating a repo
-### Copying git URL
-
-### Cloing the repo locally
+### Step 1.3 Cloning the repo locally
 Tip: Right click on the terminal to paste the git URL. In most cases, you can’t use `Ctrl+V` in the terminal.  
 
 #### MacOS and Linux
@@ -76,8 +74,20 @@ $ git clone https://github.com/github-fun/github-appendix.git && cd github-appen
 ```
 
 
-
-
 ## Making changes and pushing to remote
+### Step 2.0 Creating a file
+Create a new file called "question.txt" in the root of your new repo directory and use a text editor to write a question in that file.
+Some example text editors are listed below, but feel free to do this in whichever way is easiest for you, including graphical navigation or MS Word. If you use Word, make sure to save the file with a ".txt" extension.
+
+#### Linux: common text editors include nano, gedit, vim, emacs
+`$ touch question.txt && gedit question.txt`
+
+#### Windows: common text editor is notepad
+`> touch question.txt`
+
+### Step 2.1 Tracking the file with git
+`$ git add question.txt`
+
+
 
 ## Working with branches
