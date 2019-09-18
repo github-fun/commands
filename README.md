@@ -6,6 +6,12 @@ Follow along here to see the exact commands and URLs you need to use in this wor
 If you already have a GitHub account you'd like to use, log in to that account.
 Otherwise, register a GitHub account at https://github.com/.
 
+Tip: If you're creating an account and don’t have a username in mind, use `gitisawesome` + a number.
+
+![PACSPull Plugin](/images/set-up/github-join.png)
+
+
+
 ### Step 0.2: Opening a terminal
 #### Linux
 Use ctrl + alt + T to open a terminal or search for it in Apps.
@@ -18,8 +24,8 @@ Use Windows + R to open “Run” box and type “cmd” to open a terminal.
 
 
 ### Step 0.3 Checking git version
-On all operating systems, enter the following command in the terminal (you do not type the `$` -- it denotes a user prompt, i.e. something that you type rather than output from the machine):  
-`$ git --version`  
+On all operating systems, enter the following command in the terminal:  
+`git --version`  
 
 After you enter the above command, you should see something like:  
 `git version 2.20.1`  
@@ -30,8 +36,8 @@ If you see nothing, git is not installed and you should follow the instructions 
 ### Step 0.4 Installing git (if not already installed)
 #### Linux
 ```
-$ sudo apt-get update
-$ sudo apt-get install git
+sudo apt-get update
+sudo apt-get install git
 ```
 
 #### MacOS
