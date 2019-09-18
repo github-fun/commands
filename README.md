@@ -73,6 +73,18 @@ $ git config --global user.email "jane@l337.com"
 ```
 
 ## Creating a repo
+### Step 1.1 Creating a repo
+In your GitHub account, find the Repositories tab and click. Then click the green New button.
+
+(image)
+
+Choose a name for your repo (ex. `myawesomerepo`). Choose the button to make the repo public and select “Initialize this repository with a README.” Leave all other choices on the default setting.
+
+### Step 1.2 Copy the repo's URL
+In your GitHub account, click the Repositories tab and click on your new repo. Click the green “clone or download” button on the right. For today, we will use HTTPS (you can toggle this).
+
+(image)
+
 ### Step 1.3 Cloning the repo locally
 Tip: Right click on the terminal to paste the git URL. In most cases, you can’t use `Ctrl+V` in the terminal.  
 
@@ -91,6 +103,8 @@ $ git clone https://github.com/github-fun/github-appendix.git && cd github-appen
 
 ## Making changes and pushing to remote
 ### Step 2.0 Creating a file
+Create a file called “question.txt” in your new repo and add the question “What makes you excited about programming?” (Or feel free to add your own question!)
+
 Create a new file called "question.txt" in the root of your new repo directory and use a text editor to write a question in that file.
 Some example text editors are listed below, but feel free to do this in whichever way is easiest for you, including graphical navigation or MS Word. If you use Word, make sure to save the file with a ".txt" extension.
 
