@@ -16,7 +16,8 @@ Tip: If you're creating an account and don’t have a username in mind, use `git
 
 ### Step 0.2: Opening a terminal
 
-The terminal allows you to interact with programs on your computer in a precise and powerful way.
+The terminal allows you to interact with programs on your computer in a precise and powerful way. We will use it for everything in this workshop.
+
 ![PACSPull Plugin](/images/set-up/cli-fun.png)
 
 #### Linux
