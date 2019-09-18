@@ -6,6 +6,8 @@ Follow along here to see the exact commands and URLs you need to use in this wor
 If you already have a GitHub account you'd like to use, log in to that account.
 Otherwise, register a GitHub account at https://github.com/.
 
+At the end of registration, it'll ask you to set up a new repo. You can stop there without setting one up yet.
+
 Tip: If you're creating an account and don’t have a username in mind, use `gitisawesome` + a number.
 
 ![PACSPull Plugin](/images/set-up/github-join.png)
