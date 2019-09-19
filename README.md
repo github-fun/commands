@@ -153,4 +153,8 @@ Use `git branch` to check that you're on the `master` branch.
 Then use `git merge my-new-branch` to merge the changes from `my-new-branch` into your current branch (`master`).
 
 ### Step 3.5 Push
-Push your branches to remote!
+Push your original branch to remote. 
+Make sure you are on the `master` branch with `git branch`. If so, use `git push` to push new changes to remote. (Otherwise, change to the master branch with `git checkout master`; then use `git push` the same way.)
+
+### Bonus Step
+If you have extra time, delete your "new" branch to clean up. Make sure you are on the master branch with `git branch` (or change to master with `git checkout master`) because you cannot delete a branch you're currently on. Then delete the other branch with `git branch -d my-new-branch`. Check that the delete worked by using `git branch` to list all local branches.
