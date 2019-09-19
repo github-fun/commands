@@ -109,7 +109,7 @@ Create a file called “question.txt” in your new repo (inside the folder you 
 
 ### Step 2.2 Tracking changes
 Use `git status` to check the status of your new file.  
-`git add question.txt`  
+Add the file to git's tracking with `git add question.txt`.
 Use `git status` to check the status of your file again. What is different?  
  
 ### Step 2.3 Committing changes
