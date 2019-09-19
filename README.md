@@ -119,13 +119,12 @@ If you want to try creating the file in the terminal, you can use `touch questio
 #### Windows: common text editor is notepad
 `> touch question.txt`
 
-Use `git status` to check the status of your new file.
-
 -----------------------
 
 ### Step 2.2 Tracking changes
+Use `git status` to check the status of your new file.  
 `git add question.txt`  
- Use `git status` to check the status of your file again. What is different?
+Use `git status` to check the status of your file again. What is different?  
  
 ### Step 2.3 Committing changes
 `git commit -am "added question.txt file"`  
