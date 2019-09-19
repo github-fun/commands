@@ -107,20 +107,6 @@ $ git clone https://github.com/github-fun/github-appendix.git && cd github-appen
 ### Step 2.1 Creating a file
 Create a file called “question.txt” in your new repo (inside the folder you downloaded with `git clone`) and add the question “What makes you excited about programming?” (Or add your own question!) Feel free to do this however you are most comfortable creating and editing files (MS Word is fine), but please save it as a `.txt` file instead of `.doc` or any other file extension.
 
-
----------
-Keep this section?  
-
-If you want to try creating the file in the terminal, you can use `touch question.txt` to create the file on Mac/Linux and (FILL IN LATER) on Windows. Then open the file in a text editor like notepad, gedit, vim, etc.  
-
-#### Linux: common text editors include nano, gedit, vim, emacs
-`$ touch question.txt && gedit question.txt`
-
-#### Windows: common text editor is notepad
-`> touch question.txt`
-
------------------------
-
 ### Step 2.2 Tracking changes
 Use `git status` to check the status of your new file.  
 `git add question.txt`  
