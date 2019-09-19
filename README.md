@@ -106,8 +106,8 @@ Add the file to git's tracking with `git add question.txt`.
 Use `git status` to check the status of your file again. What is different?  
  
 ### Step 2.3 Committing changes
-`git commit -am "added question.txt file"`  
-Tip: `-am ` allows you to specify a commit message. The commit message should be short and descriptive about the purpose of the commit or what you changed.
+`git commit -m "added question.txt file"`  
+Tip: `-m ` allows you to specify a commit message. The commit message should be short and descriptive about the purpose of the commit or what you changed.
 
 ### Step 2.4 Storing changes remotely
 Use `git remote -v` to see which remote branches your branch is tracking.  
