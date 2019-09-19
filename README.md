@@ -47,12 +47,14 @@ sudo apt-get install git
 ```
 
 #### MacOS
-If you have homebrew installed, you can issue:  
+Use the the [Git for Mac Installer](https://sourceforge.net/projects/git-osx-installer/files/).
+
+Alternatively, if you have homebrew installed, you can issue:  
 `brew install git`
 
-Otherwise, you can either [install homebrew](https://brew.sh/) with   
+You can [install homebrew](https://brew.sh/) with   
 ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```   
-before entering the above command or you can download git with the [Git for Mac Installer](https://sourceforge.net/projects/git-osx-installer/files/).
+before entering the above command.
 
 #### Windows
 Use the [Git for Windows installer](https://gitforwindows.org/).
