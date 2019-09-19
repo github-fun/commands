@@ -86,26 +86,19 @@ Copy the repo's URL. In your GitHub account, click the Repositories tab and clic
 
 (image)
 
-In your terminal, optionally navigate to the folder where you want to keep your git repo. Otherwise, just use the current directory. Use `git clone <URL>` to clone the repo. You can paste the URL into the terminal after typing `git clone`.
+In your terminal, optionally navigate to the folder where you want to keep your git repo. Otherwise, just use the current directory. Use `git clone <URL>` to clone the repo (DO NOT include the `<` and `>` brackets). You can paste the URL into the terminal after typing `git clone`.
 
-Tip: Right click on the terminal to paste the git URL. In most cases, you can’t use `Ctrl+V` in the terminal.  
-
-#### MacOS and Linux
+Tip 1: Right click on the terminal to paste the git URL. In most cases, you can’t use `Ctrl+V` in the terminal.  
+Tip 2: On Linux/Mac, you can enter the first few letters of your repo's name and hit the tab key to auto-complete it.
+Tip 3: If you don't know your repo's name after cloning, enter `ls` to show it.
 ```
-$ cd ~ && mkdir Repos && cd Repos
-$ git clone https://github.com/github-fun/github-appendix.git && cd github-appendix
+git clone <URL> 
+cd <repo name>
 ```
-
-#### Windows
-```
-> cd C:\Users\gituser && mkdir Repos && cd Repos
-> git clone https://github.com/github-fun/github-appendix.git && cd github-appendix
-```
-
 
 ## Making changes
 ### Step 2.1 Creating a file
-Create a file called “question.txt” in your new repo (inside the folder you downloaded with `git clone`) and add the question “What makes you excited about programming?” (Or add your own question!) Feel free to do this however you are most comfortable creating and editing files (MS Word is fine), but please save it as a `.txt` file instead of `.doc` or any other file extension.
+Create a file called `question.txt` in your new repo (inside the folder you downloaded with `git clone`) and add the question “What makes you excited about programming?” (Or add your own question!) Feel free to do this however you are most comfortable creating and editing files (MS Word is fine), but please save it as a `.txt` file instead of `.doc` or any other file extension.
 
 ### Step 2.2 Tracking changes
 Use `git status` to check the status of your new file.  
