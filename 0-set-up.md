@@ -27,7 +27,7 @@ You will be using Windows PowerShell. In the Start menu, search for PowerShell.
 
 
 ### Step 0.3 Checking git version
-On all operating systems, enter the following command in the terminal (for all commands, type the command and hit `ENTER`):  
+On all operating systems, enter the following command in the terminal (type the command and hit `ENTER`):  
 `git --version`  
 
 After you enter the above command, you should see something like (although the version number may differ):  
