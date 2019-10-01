@@ -2,7 +2,7 @@
 ### Step 1.1 Creating a repo on GitHub
 In your GitHub account, find the Repositories tab and click. Then click the green New button.
 
-![PACSPull Plugin](/images/set-up/github-new-repo.png)
+![PACSPull Plugin](/images/repo/github-new-repo.png)
 
 Choose a name for your repo (ex. `myawesomerepo`). Choose the button to make the repo public and select “Initialize this repository with a README.” Leave all other choices on the default setting.
 
