@@ -1,6 +1,8 @@
-# Steps for forking an upstream repository and creating pull request (PR)
+# Steps for forking an upstream repository
 
-### Step 1.  Fork the upstream repository in your GitHub account. If you have multiple account (e.g. in the picture), select an account
+### Step 1.  Fork the upstream repository in your GitHub account. 
+Consider your teammate's repository as the upstream repository you will be making a contribution to. Follow the screenshot to fork your upstream repository. If you have multiple account (e.g. in the picture), select an account
+
    ![Fork upstream repo](/images/2019_09_10_09_27_08.png)
 
    - Forking in progress
@@ -11,19 +13,22 @@
 
    - Clone the repo. Open your terminal. Go to the path where you want to have your repo on your local machine.
    
-   `cd ~/my_codes_live_here` on UNIX/MAC
-   `cd C:\my_codes_live_here` on Windows
-   `git clone <repo-name>`
+   - `cd ~/<path where you want to clone your repository>` on UNIX/MAC
+   - `cd C:\<path where you want to clone your repository>` on Windows
+   - `git clone <repo-name>`
 
+#### Note: You will be cloning the repository which is a fork of your teammate's repository also called upstream in this case.
+   
    ![git clone console](/images/2019-09-10-09-28-36.png)
 
-   - Check remote `git remote -v`
+   - Check remote `git remote -v`. You should see url of your repository. Something like `https://github.com/<your_github_account_name>/<repository_name>.git` for e.g. `https://github.com/husky-parul/github-commands.git`
 
    ![git remote -v console](/images/git_remote_v.png)
 
    - Add upstream to remote `git remote add upstream <upstream repo link>`
 
-   - Check remote again `git remote -v`
+   - Check remote again `git remote -v`. Now you should see two remotes, namely `upstream` and `origin`. Verify if the urls are corect. `upstream` should be your teammate's repo url. `origin` should be your repo url.
+
    ![git add upstream console](/images/add_upstream.png)
 
 ### Step 3. Add new feature/code by creating a new branch, say feature-1
@@ -35,55 +40,19 @@
    - Add new branch `git checkout -b feature-1`
    ![git branch console](/images/git_checkout_b.png)
 
-   - Check the contents of the repo `ls -la`
+   - Check the contents of the repo `ls`
 
-   - Create a new file, say FORK.md `vi FORK.md`
+   - Open the file `question.txt` and add a sentence, `This is my first upstream contribution`
 
-   - Add a sentence. Press `ESC` followed by `:` followed by `i` and then type `Add commands here.`
+   - Save the file.
 
-   - Save the file. Press `ESC` followed by `:` followed by `wq`
+   - Add the file to stage for git to track `git add question.txt`
 
-   - Check if new file was created `ls -la`
-   ![git branch console](/images/create_new_file.png)
+   - Make a commit `git commit -m "My first upstream contribution"`
 
-   
+   - Push the file `git push origin feature-1`
 
-
-### Step 3. Creating a pull request
-   - Sync your branch with upstream  `git fetch upstream master`
-
-   - Pick commits from upstream `git rebase -i upstream/master`
-
-   - Add the file `git add .`
-
-   - Commit the file with comments `git commit - m 'first commit' `
-
-   - Push changes `git push origin feature-1`
-
-   - Check if file was added to `feature-1` branch of `origin` 
-   ![git branch console](/images/check_feature_1.png)
-
-   ![git branch console](/images/check_feature_2.png)
-
-   - Create a pull request
-
-   ![git branch console](/images/pr_1.png)
-
-   - Add reviewer
-   
-   ![git branch console](/images/add_reviewer_pr.png)
-
-   - Check PR
-   
-   ![git branch console](/images/pending_review.png)
-
-   - Check your commits in PR
-   
-   ![git branch console](/images/check_commit_in_pr.png)
-
-   - Check modified files in PR
-   
-   ![git branch console](/images/check_files_in_pr.png)
+   - Verify if the file was pushed by checking it on GitHub web page.
 
 
 
