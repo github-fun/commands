@@ -70,13 +70,13 @@ You should see something like:
 ```
 
 ### Step 3.4 Compare branches
-List the files in your directory while you're on `my-new-branch` with:
+List the files in your directory while you're on `my-new-branch` with:  
 `ls` 
 
 What do you see?  
 You should see your new file, `random.txt`, as well as the older file, `question.txt`.
 
-Now view all your branches with:
+Now view all your branches with:  
 `git branch`
 
 This should show you both branches, with the current one highlighted and with an asterisk (the order in which they are listed doesn't matter):
