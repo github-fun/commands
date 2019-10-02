@@ -30,7 +30,10 @@ Use `git status` to check the status of your file again. What is different? Now 
 On branch master
 Your branch is up to date with 'origin/master'.
 
-nothing to commit, working tree clean
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   question.txt
 ```
 
 ### Step 2.3 Committing changes
