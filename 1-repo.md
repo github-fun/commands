@@ -13,13 +13,29 @@ Copy the repo's URL. In your GitHub account, click the Repositories tab and clic
 
 ![PACSPull Plugin](/images/repo/github-clone-repo.png)
 
-In the terminal, enter:
+In the terminal, navigate to your home directory and clone the repo with:
 ```
 cd ~
 git clone <URL> 
-cd <repo name>
+```
+You should be able to paste the URL into the terminal by right-clicking and selecting `Paste`. (`ctrl` + `v` usually won't work.)
+
+You should see:
+```
+Cloning into 'myawesomerepo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
 ```
 
-These commands will bring you to your home directory, clone the repo you created, then change directory into your repo. Now you will be able to see any files in the local copy of your repo by entering `ls`. Try it out - you should see `README.md` listed.
+Then change directory to your local repo with:
+```
+cd myawesomerepo/
+```
 
-Tips: Do not put brackets around the URL that you are cloning. Right click to paste the repo's URL into the terminal (`ctrl` + `v` usually won't work) and hit enter.
+Now you are inside the repo folder. You can see the files in your repo by using:
+`ls`
+
+This should show you:
+`README.md`
