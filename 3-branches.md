@@ -64,9 +64,9 @@ The `-m` option allows you to write a message labeling the commit. Ideally, your
 
 You should see something like:
 ```
-[my-new-branch 7f54cca] new question, added random file
- 2 files changed, 1 insertion(+)
- create mode 100644 images/random.txt
+[my-new-branch 70e28f4] new question, added random file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 random.txt
 ```
 
 ### Step 3.4 Compare branches
