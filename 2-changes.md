@@ -23,7 +23,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 
 Add the file to git's tracking with:  
-`git add question.txt`.  
+`git add question.txt`
 
 Use `git status` to check the status of your file again. What is different? Now you should see something like:  
 ```
