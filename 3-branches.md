@@ -88,28 +88,35 @@ my-new-branch
 Then, to merge changes from `my-new-branch` into your current branch (`master`), use:
 `git merge my-new-branch`
 
+You should see:  
+```
+Updating 3074f57..7f54cca
+Fast-forward
+ question.txt | 1 +
+ random.txt   | 0
+ 2 files changed, 1 insertion(+)
+ create mode 100644 random.txt
+```
+
 Use `ls` again to see your files. You should see that now `random.txt` shows up in the `master` branch. By merging `my-new-branch` into the `master` branch, you have brought the changes from `my-new-branch` into `master`.
 
 ### Step 3.6 Push changes to remote
 Push your original `master` branch to remote. 
 
-Make sure you are on the `master` branch with:
+Make sure you are on the `master` branch with:  
 `git branch`
 
-You should see:
+You should see:  
 ```
 * master
 my-new-branch
 ```
 
-If you don't see this, you can switch to the `master` branch by using:
+If you don't see this, you can switch to the `master` branch by using:  
 `git checkout master`
 
-Check that you have no untracked files with:
+Check that you have no untracked files with:  
 `git status`
-
-You should see:
-
 
 Push the new changes to remote with:
 `git push origin master`
@@ -117,4 +124,4 @@ Push the new changes to remote with:
 You can check that your changes made it to remote by looking on your GitHub profile in the repo you created. 
 
 ### Bonus Step
-If you have extra time, delete your "new" branch to clean up. Make sure you are on the master branch with `git branch` (or change to master with `git checkout master`) because you cannot delete a branch you're currently on. Then delete the other branch with `git branch -d my-new-branch`. Check that the delete worked by using `git branch` to list all local branches.
+If you have extra time, delete your new branch to clean up. Make sure you are on the master branch with `git branch` (or change to master with `git checkout master`) because you cannot delete a branch you're currently on. Then delete the other branch with `git branch -d my-new-branch`. Check that the delete worked by using `git branch` to list all local branches.
