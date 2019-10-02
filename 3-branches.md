@@ -4,7 +4,7 @@ To check which branch you are currently on, use:
 `git branch`  
 
 It should say:  
-`master`
+`* master`
 
 To create a new branch and switch into that branch at the same time, use:  
 `git checkout -b my-new-branch` 
