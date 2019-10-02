@@ -1,20 +1,3 @@
-# Sitting arrangement
-
-Please sit according to your operating system. This will help everyone work together! 
-- Windows OS  __House Left__
-- Linux OS __House Center__
-- MAC OS __House Right__
-
-
-
-
-
-
-
-
-
-
-
 # github-commands
 Follow along using the documents in this repository to see the exact commands and URLs you need to use in this workshop. You can copy and paste commands you see `in gray` into the terminal or URLS into the browser. 
 
