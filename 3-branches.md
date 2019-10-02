@@ -66,8 +66,8 @@ The `-a ` option creates a snapshot of all changes to tracked files in the worki
 
 You should see something like:
 ```
-[my-new-branch 70e28f4] new question, added random file
- 1 file changed, 0 insertions(+), 0 deletions(-)
+[my-new-branch 7286f7f] new question, added random file
+ 2 files changed, 2 insertions(+)
  create mode 100644 random.txt
 ```
 
