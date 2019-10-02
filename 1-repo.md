@@ -6,6 +6,8 @@ In your GitHub account, find the Repositories tab and click. Then click the gree
 
 Choose a name for your repo (ex. `myawesomerepo`). Choose the button to make the repo public and select “Initialize this repository with a README.” Leave all other choices on the default setting.
 
+![PACSPull Plugin](/images/repo/github-repo-initialize.png)
+
 ### Step 1.2 Cloning the repo locally
 Copy the repo's URL. In your GitHub account, click the Repositories tab and click on your new repo. Click the green “clone or download” button on the right. Make sure "use HTTPS" is selected (not SSH).
 
