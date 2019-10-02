@@ -58,9 +58,11 @@ Changes not staged for commit:
 ```
 
 Then you can make a commit and add a commit message:  
-`git commit -m "new question, added random file"`  
+`git commit -am "new question, added random file"`  
 
 The `-m` option allows you to write a message labeling the commit. Ideally, your commit message is descriptive about what changed in this commit compared to the previous one. However, it should also be short (just a few words).
+
+The `-a ` option creates a snapshot of all changes to tracked files in the working directory.
 
 You should see something like:
 ```
