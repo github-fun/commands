@@ -65,7 +65,9 @@ origin	git@github.com:<gitusername>/<repo>.git (push)
 Then to push your committed changes from your local machine to the remote GitHub repo, where others can see it or clone it, use:  
 `git push origin master` 
 
-You should see:  
+This should prompt you for your GitHub username and password. You won't see your password on the screen as you type it in.
+
+Then you should see:  
 ```
 Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
