@@ -1,7 +1,7 @@
 # Sitting arrangements
 Please sit according to your operating system. This will help everyone work together! 
 - Windows OS  __House Left__
-- Linux/Unix OS __House Center__
+- Linux OS __House Center__
 - MAC OS __House Right__
 
 
