@@ -134,6 +134,21 @@ If you don't see this, you can switch to the `master` branch by using:
 Check that you have no untracked files with:  
 `git status`
 
+You should see:  
+```
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   question.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
 Push the new changes to remote with:
 `git push origin master`
 
