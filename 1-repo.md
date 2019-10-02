@@ -34,8 +34,8 @@ Then change directory to your local repo with:
 cd myawesomerepo/
 ```
 
-Now you are inside the repo folder. You can see the files in your repo by using:
+Now you are inside the repo folder. You can see the files in your repo by using:  
 `ls`
 
-This should show you:
+This should show you:  
 `README.md`
