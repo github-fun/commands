@@ -45,5 +45,12 @@ Tip: `-m ` allows you to specify a commit message. The commit message should be 
 To see which remote branches your branch is tracking, use:  
 `git remote -v` 
 
+You should see something like:
+```
+origin	git@github.com:<gitusername>/<repo>.git (fetch)
+origin	git@github.com:<gitusername>/<repo>.git (push)
+
+```
+
 Then to push your committed changes from your local machine to the remote GitHub repo, where others can see it or clone it, use:  
 `git push origin master` 
