@@ -64,3 +64,16 @@ origin	git@github.com:<gitusername>/<repo>.git (push)
 
 Then to push your committed changes from your local machine to the remote GitHub repo, where others can see it or clone it, use:  
 `git push origin master` 
+
+You should see:  
+```
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 330 bytes | 330.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:<gitusername>/<repo>.git
+   9e62e6c..41e204c  master -> master
+
+```
