@@ -1,18 +1,48 @@
 ## Working with branches
 ### Step 3.1 Creating a new branch
-Use `git branch` to check which branch you are on. It should say `master`.  
-Then enter `git checkout -b my-new-branch` to create a new branch and switch into that branch at the same time. This will be an exact copy of the branch you were on when you called the command, which in this case is `master`.
+To check which branch you are currently on, use:  
+`git branch`  
+
+It should say:  
+`master`
+
+To create a new branch and switch into that branch at the same time, use:  
+`git checkout -b my-new-branch` 
+
+This new branch will be an exact copy of the branch you were on when you called the command, which in this case is `master`.
 
 ### Step 3.2 Modifying the branch
-Using the method from Step 2.0, create a file called `random.txt`, but leave it blank. Then edit `question.txt` to ask an additional question (Ex. "What is your favorite animal and why?").
+Using whatever method you are comfortable with, create a file called `random.txt`, but feel free to leave it empty.  
+Then, edit `question.txt` to ask an additional question (Ex. "What is your favorite animal and why?").
 
 ### Step 3.3 Committing branch changes
-You will need to add the file to git's tracking before making a commit.  
-Use `git status` to see the current changes. You should see that you have an untracked file.  
-Add the new file with `git add random.txt`.  
-Check the status again with `git status` and see that it no longer shows an untracked file.
+You will need to add the file to git's tracking before making a commit, so first view the current changes with:
+`git status`
+
+You should see that you have an untracked file:
+```
+On branch my-new-branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	random.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+```
+
+Add the new file with:
+`git add random.txt`.  
+
+Check the status again with `git status` and see that it no longer shows an untracked file. You should see:
+```
+On branch my-new-branch
+nothing to commit, working tree clean
+```
+
 Then you can make a commit and add a commit message:  
 `git commit -m "new question, addition of random file"`  
+
 The `-m` option allows you to write a message labeling the commit. Ideally, your commit message is descriptive about what changed in this commit compared to the previous one. However, it should also be short (just a few words).
 
 ### Step 3.4 Compare branches
