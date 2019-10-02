@@ -1,9 +1,7 @@
 # github-commands
 Follow along using the documents in this repository to see the exact commands and URLs you need to use in this workshop. You can copy and paste commands you see `in gray` into the terminal or URLS into the browser. 
 
-Join us on Slack to ask any questions during the workshop and throughout the period of GHC
-
-https://bit.ly/2os6jT4
+Join us on Slack to ask any questions during the workshop and throughout the period of GHC: https://bit.ly/2os6jT4
 
 ## Tips!
 If you get lost in your terminal, the following will help you:
