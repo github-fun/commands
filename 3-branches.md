@@ -109,10 +109,11 @@ Then, to merge changes from `my-new-branch` into your current branch (`master`),
 
 You should see:  
 ```
-Updating 41e204c..70e28f4
+Updating 680c198..7286f7f
 Fast-forward
- random.txt | 0
- 1 file changed, 0 insertions(+), 0 deletions(-)
+ question.txt | 2 ++
+ random.txt   | 0
+ 2 files changed, 2 insertions(+)
  create mode 100644 random.txt
 ```
 
