@@ -9,6 +9,9 @@ It should say:
 To create a new branch and switch into that branch at the same time, use:  
 `git checkout -b my-new-branch` 
 
+You should see:  
+`Switched to a new branch 'my-new-branch'`
+
 This new branch will be an exact copy of the branch you were on when you called the command, which in this case is `master`.
 
 ### Step 3.2 Modifying the branch
