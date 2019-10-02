@@ -31,7 +31,6 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
-
 ```
 
 ### Step 2.3 Committing changes
@@ -43,7 +42,7 @@ To commit your changes and create a save point, use:
 Tip: `-m ` allows you to specify a commit message. The commit message should be short and descriptive about the purpose of the commit or what you changed in the repo.
 
 ### Step 2.4 Storing changes remotely
-To see which remote branches your branch is tracking, use:
+To see which remote branches your branch is tracking, use:  
 `git remote -v` 
 
 Then to push your committed changes from your local machine to the remote GitHub repo, where others can see it or clone it, use:  
