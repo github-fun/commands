@@ -157,7 +157,7 @@ Delta compression using up to 8 threads
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (4/4), 403 bytes | 403.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0)
-To github.com:github-fun/myawesomerepo.git
+To github.com:<gitusername>/<repo>.git
    680c198..7286f7f  master -> master
 ```
 
