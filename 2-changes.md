@@ -44,6 +44,13 @@ To commit your changes and create a save point, use:
 
 Tip: `-m ` allows you to specify a commit message. The commit message should be short and descriptive about the purpose of the commit or what you changed in the repo.
 
+You should see:
+```
+[master 41e204c] added question.txt file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 question.txt
+```
+
 ### Step 2.4 Storing changes remotely
 To see which remote branches your branch is tracking, use:  
 `git remote -v` 
