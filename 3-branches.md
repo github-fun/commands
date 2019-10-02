@@ -102,16 +102,15 @@ You should see:
 my-new-branch
 ```
 
-Then, to merge changes from `my-new-branch` into your current branch (`master`), use:
+Then, to merge changes from `my-new-branch` into your current branch (`master`), use:  
 `git merge my-new-branch`
 
 You should see:  
 ```
-Updating 3074f57..7f54cca
+Updating 41e204c..70e28f4
 Fast-forward
- question.txt | 1 +
- random.txt   | 0
- 2 files changed, 1 insertion(+)
+ random.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 random.txt
 ```
 
