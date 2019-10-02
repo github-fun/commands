@@ -1,4 +1,5 @@
-# Sitting arrangements
+# Sitting arrangement
+
 Please sit according to your operating system. This will help everyone work together! 
 - Windows OS  __House Left__
 - Linux OS __House Center__
