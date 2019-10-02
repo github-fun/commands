@@ -40,9 +40,9 @@ Changes to be committed:
 
 To commit your changes and create a save point, use:
 
-`git commit -m "added question.txt file"`  
+`git commit -am "added question.txt file"`  
 
-Tip: `-m ` allows you to specify a commit message. The commit message should be short and descriptive about the purpose of the commit or what you changed in the repo.
+Tip: `-m ` allows you to specify a commit message. The commit message should be short and descriptive about the purpose of the commit or what you changed in the repo. `-a` creates a snapshot of all changes to tracked files in the working directory.
 
 You should see:
 ```
