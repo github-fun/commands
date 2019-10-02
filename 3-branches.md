@@ -85,7 +85,7 @@ master
 * my-new-branch
 ```
 
-To back to the `master` branch, use:
+To back to the `master` branch, use:  
 `git checkout master`.
 
 Now that you are on the original `master` branch, use `ls` again to list the files in your repo. What is different from the last time you looked at the contents of this folder? 
@@ -93,7 +93,7 @@ Now that you are on the original `master` branch, use `ls` again to list the fil
 You should see that `random.txt` has disappeared! This is expected; this file was only added in `my-new-branch` and does not show up in other branches. If you switch back to `my-new-branch` using `git checkout my-new-branch` and enter `ls`, you will see the file again.
 
 ### Step 3.5 Merging the branch
-To check that you're on the `master` branch, use:
+To check that you're on the `master` branch, use:  
 `git branch`
 
 You should see:
