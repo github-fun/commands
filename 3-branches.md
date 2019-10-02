@@ -149,6 +149,18 @@ nothing to commit, working tree clean
 Push the new changes to remote with:
 `git push origin master`
 
+You should see:  
+```
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 403 bytes | 403.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To github.com:github-fun/myawesomerepo.git
+   680c198..7286f7f  master -> master
+```
+
 You can check that your changes made it to remote by looking on your GitHub profile in the repo you created. 
 
 ### Bonus Step
