@@ -19,19 +19,24 @@ Using whatever method you are comfortable with, create a file called `random.txt
 Then, edit `question.txt` to ask an additional question (Ex. "What is your favorite animal and why?").
 
 ### Step 3.3 Committing branch changes
-You will need to add the file to git's tracking before making a commit, so first view the current changes with:
+You will need to add the file to git's tracking before making a commit, so first view the current changes with:  
 `git status`
 
 You should see that you have an untracked file:
 ```
 On branch my-new-branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   question.txt
+
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
 	random.txt
 
-nothing added to commit but untracked files present (use "git add" to track)
-
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 Add the new file with:
@@ -40,7 +45,16 @@ Add the new file with:
 Check the status again with `git status` and see that it no longer shows an untracked file. You should see:
 ```
 On branch my-new-branch
-nothing to commit, working tree clean
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   random.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   question.txt
 ```
 
 Then you can make a commit and add a commit message:  
