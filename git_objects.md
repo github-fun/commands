@@ -73,7 +73,8 @@ for i in 70f9 4ebf 4f52; do git cat-file -s $i; done
 
 ```
 
-### Objects after updating files and adding new commit
+### Blob objects
+Blob is an abbreviation of “Binary Large Object”. It contains contents of the file only. 
 
 Now let's try to update `sample.txt`, create a new file and make another commit and see what happens to these objects.
 
@@ -105,7 +106,6 @@ blob
 tree
 
 ```
-### Blob objects
 As you can see two blob objects have been added. Note that the existing blob object 4f52 has not been updated or deleted. That means a blob object is a snapshot of the file.
 
 ### Commit objects
@@ -134,7 +134,13 @@ Unlike blob, commit object is metadata and has no content.
 
 ### Tree objects
 
+Tree objects contain one line per file or subdirectory. Each line has file permission, object type, and object hash and filename.
 
+```
+git cat-file d2fc -p
+100644 blob f86effb19a7ee6cea51166c3a1438ba313794fc8	sample.txt
+100644 blob b2b6f00d3432b3a12bc47e2ae31ee679f2baae92	sample2.txt
 
+```
 
 
