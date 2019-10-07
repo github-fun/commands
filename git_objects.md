@@ -122,8 +122,8 @@ Initial commit
 git cat-file a0cf -p
 tree d2fc8330756fc2dd131ff428a48e5a402d515cfe
 parent 70f928c3b426a4949d8968334e4d30e92bc31687
-author husky-parul <parsingh@redhat.com> 1570472704 -0400
-committer husky-parul <parsingh@redhat.com> 1570472704 -0400
+author husky-parul <nerd@nerd.com> 1570472704 -0400
+committer husky-parul <nerd@nerd.com> 1570472704 -0400
 
 Second commit
 
