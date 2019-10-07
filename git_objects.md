@@ -143,4 +143,6 @@ git cat-file d2fc -p
 
 ```
 
+### Refrences
+https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
 
